@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Tiro+Kannada&display=swap');
+
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: 'Tiro Kannada';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: right;
+}
+
+h2, h3, h4 {
+    font-family: "Merriweather";
+    text-align: left;
+
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+p {
+    font-family: Merriweather;
+}
+
+/* Navbar */
+
+.navbar {
+    /* padding: 0 0 4.5rem; */
+    padding: 5%;
+    margin: 5%;
+}
+
+.navbar-brand {
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: Merriweather;
+}
+
+.nav-container {
+    margin: 0;
+    padding: 0;
+}
+
+/* title section */
+
+#title {
+    /* background-color: #68A7AD; */
+    background: linear-gradient(to bottom, #66ccff 0%, #99ccff 100%);
+    color: azure;
+    text-align: right;
+    padding: 3% 15% 7%;
+}
+
+.title-section {
+    padding: 10% 20% 25%;
+    margin: 5%;
+}
+
+
+/* image title */
+
+.title-image {
+    width: 50%;
+    position: absolute;
+    left: 35%;
+}
+
+
+/* about */
+
+#about {
+    /* background-color: #E8F9FD; */
+    background: linear-gradient(to bottom, #ccffff 0%, #ffffff 100%);
+    padding: 3% 15% 7%;
+    margin: 5%;
+    color: #68A7AD;
+}
+
+/* education */
+
+#education {
+    /* background-color: #68A7AD; */
+    background: linear-gradient(to bottom, #66ccff 0%, #99ccff 100%);
+    color: azure;
+    text-align: right;
+    padding: 3% 15% 7%;
+    margin: 5%;
+
+}
+
+.div-education {
+    padding: 2%;
+
+}
+
+.div-courses {
+    padding: 2%;
+
+}
+
+.text-list {
+    text-align: left;
+}
+
+
+/* Projects */
+
+#projects {
+    /* background-color: #E8F9FD; */
+    background: linear-gradient(to bottom, #ccffff 0%, #ffffff 100%);
+    margin: 5%;
+    text-align: left;
+    color:#68A7AD;
+
+}
+/* contact me */
+
+.contact-me {
+    /* background-color: #68A7AD; */
+    background: linear-gradient(to bottom, #66ccff 0%, #99ccff 100%);
+    text-align: center;
+    color: #E8F9FD;
+    margin: 5%;
+
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+
+
+.center-text {
+    text-align: center;
+}
+/* footer */
+
+#footer {
+    text-align: center;
+    /* background-color: #E8F9FD; */
+    background: linear-gradient(to bottom, #ccffff 0%, #ffffff 100%);
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 15px;
+    color: #68A7AD;
+    margin: 5%;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0); /* rotate back to 0 straight*/
+    }
+}
